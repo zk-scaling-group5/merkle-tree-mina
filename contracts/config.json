@@ -1,4 +1,32 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "rwa-mina": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/rwa-mina.json",
+      "feepayerKeyPath": "/home/henri/.cache/zkapp-cli/keys/rwa-mina.json",
+      "feepayerAlias": "rwa-mina",
+      "fee": "0.1",
+      "smartContract": "MarketplaceContract"
+    },
+    "real_world_asset": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/real_world_asset.json",
+      "feepayerKeyPath": "/home/henri/.cache/zkapp-cli/keys/rwa-account.json",
+      "feepayerAlias": "rwa-account",
+      "fee": "0.1",
+      "smartContract": "MarketplaceContract"
+    },
+    "flm-wallet": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/flm-wallet.json",
+      "feepayerKeyPath": "/home/henri/.cache/zkapp-cli/keys/ekecxaj3ayv7q2quert6mekyn7cm89he4dfewfacxadinb2oxpwg.json",
+      "feepayerAlias": "ekecxaj3ayv7q2quert6mekyn7cm89he4dfewfacxadinb2oxpwg",
+      "fee": "0.1",
+      "smartContract": "MarketplaceContract"
+    }
+  }
 }
